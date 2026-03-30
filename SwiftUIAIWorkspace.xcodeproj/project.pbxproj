@@ -6,6 +6,22 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		1F5323872F7AC81300F14D56 /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5323862F7AC81300F14D56 /* RootTabView.swift */; };
+		1F53239B2F7AD24100F14D56 /* StatCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F53239A2F7AD23300F14D56 /* StatCard.swift */; };
+		1F53239D2F7AD25100F14D56 /* SessionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F53239C2F7AD24500F14D56 /* SessionCard.swift */; };
+		1F53239F2F7AD26D00F14D56 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F53239E2F7AD25400F14D56 /* DashboardView.swift */; };
+		1F5323A02F7AD59900F14D56 /* AppStat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5323852F7AC6B600F14D56 /* AppStat.swift */; };
+		1F5323A12F7AD5BA00F14D56 /* FeebackItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5323842F7AC6A300F14D56 /* FeebackItem.swift */; };
+		1F5323A22F7AD5C500F14D56 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5323832F7AC68C00F14D56 /* Session.swift */; };
+		1F5323A32F7AD5CE00F14D56 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5323972F7AD14D00F14D56 /* DashboardViewModel.swift */; };
+		1F5323A42F7AD5EE00F14D56 /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5323992F7AD1CA00F14D56 /* SectionHeader.swift */; };
+		1F5323A52F7AD5F600F14D56 /* StatusBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5323982F7AD1A700F14D56 /* StatusBadge.swift */; };
+		1F5323A72F7AD9AB00F14D56 /* FeedbackFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5323A62F7AD9AB00F14D56 /* FeedbackFormView.swift */; };
+		1F5323A92F7ADB6100F14D56 /* ComponentShowcaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5323A82F7ADB6100F14D56 /* ComponentShowcaseView.swift */; };
+		1F5323AB2F7ADBBC00F14D56 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5323AA2F7ADBBC00F14D56 /* PrimaryButton.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		1F53234A2F7ABF0500F14D56 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,14 +43,43 @@
 		1F53233C2F7ABF0200F14D56 /* SwiftUIAIWorkspace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAIWorkspace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F5323492F7ABF0500F14D56 /* SwiftUIAIWorkspaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIAIWorkspaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F5323532F7ABF0500F14D56 /* SwiftUIAIWorkspaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIAIWorkspaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F5323832F7AC68C00F14D56 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		1F5323842F7AC6A300F14D56 /* FeebackItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeebackItem.swift; sourceTree = "<group>"; };
+		1F5323852F7AC6B600F14D56 /* AppStat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStat.swift; sourceTree = "<group>"; };
+		1F5323862F7AC81300F14D56 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		1F5323972F7AD14D00F14D56 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		1F5323982F7AD1A700F14D56 /* StatusBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBadge.swift; sourceTree = "<group>"; };
+		1F5323992F7AD1CA00F14D56 /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
+		1F53239A2F7AD23300F14D56 /* StatCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatCard.swift; sourceTree = "<group>"; };
+		1F53239C2F7AD24500F14D56 /* SessionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionCard.swift; sourceTree = "<group>"; };
+		1F53239E2F7AD25400F14D56 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		1F5323A62F7AD9AB00F14D56 /* FeedbackFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackFormView.swift; sourceTree = "<group>"; };
+		1F5323A82F7ADB6100F14D56 /* ComponentShowcaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentShowcaseView.swift; sourceTree = "<group>"; };
+		1F5323AA2F7ADBBC00F14D56 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		1F53233E2F7ABF0200F14D56 /* SwiftUIAIWorkspace */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SwiftUIAIWorkspace;
-			sourceTree = "<group>";
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		1F53237C2F7AC4AC00F14D56 /* Exceptions for "SwiftUIAIWorkspace" folder in "SwiftUIAIWorkspace" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Assets.xcassets,
+				ContentView.swift,
+				SwiftUIAIWorkspaceApp.swift,
+			);
+			target = 1F53233B2F7ABF0200F14D56 /* SwiftUIAIWorkspace */;
 		};
+		1F53237D2F7AC4AC00F14D56 /* Exceptions for "SwiftUIAIWorkspace" folder in "SwiftUIAIWorkspaceUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Assets.xcassets,
+				ContentView.swift,
+				SwiftUIAIWorkspaceApp.swift,
+			);
+			target = 1F5323522F7ABF0500F14D56 /* SwiftUIAIWorkspaceUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
 		1F53234C2F7ABF0500F14D56 /* SwiftUIAIWorkspaceTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = SwiftUIAIWorkspaceTests;
@@ -43,6 +88,15 @@
 		1F5323562F7ABF0500F14D56 /* SwiftUIAIWorkspaceUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = SwiftUIAIWorkspaceUITests;
+			sourceTree = "<group>";
+		};
+		1F5323782F7AC4AB00F14D56 /* SwiftUIAIWorkspace */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				1F53237C2F7AC4AC00F14D56 /* Exceptions for "SwiftUIAIWorkspace" folder in "SwiftUIAIWorkspace" target */,
+				1F53237D2F7AC4AC00F14D56 /* Exceptions for "SwiftUIAIWorkspace" folder in "SwiftUIAIWorkspaceUITests" target */,
+			);
+			path = SwiftUIAIWorkspace;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,7 +129,11 @@
 		1F5323332F7ABF0200F14D56 = {
 			isa = PBXGroup;
 			children = (
-				1F53233E2F7ABF0200F14D56 /* SwiftUIAIWorkspace */,
+				1F5323782F7AC4AB00F14D56 /* SwiftUIAIWorkspace */,
+				1F5323672F7AC3F700F14D56 /* Models */,
+				1F5323692F7AC42900F14D56 /* ViewModels */,
+				1F53236A2F7AC44500F14D56 /* Views  */,
+				1F53236B2F7AC45400F14D56 /* Components */,
 				1F53234C2F7ABF0500F14D56 /* SwiftUIAIWorkspaceTests */,
 				1F5323562F7ABF0500F14D56 /* SwiftUIAIWorkspaceUITests */,
 				1F53233D2F7ABF0200F14D56 /* Products */,
@@ -92,6 +150,79 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		1F5323672F7AC3F700F14D56 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1F5323852F7AC6B600F14D56 /* AppStat.swift */,
+				1F5323842F7AC6A300F14D56 /* FeebackItem.swift */,
+				1F5323832F7AC68C00F14D56 /* Session.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1F5323692F7AC42900F14D56 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1F5323972F7AD14D00F14D56 /* DashboardViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1F53236A2F7AC44500F14D56 /* Views  */ = {
+			isa = PBXGroup;
+			children = (
+				1F5323862F7AC81300F14D56 /* RootTabView.swift */,
+				1F53237E2F7AC52D00F14D56 /* Dashboard */,
+				1F5323802F7AC54A00F14D56 /* Feedback */,
+				1F53237F2F7AC54000F14D56 /* Settings  */,
+				1F5323812F7AC56200F14D56 /* Sessions */,
+			);
+			path = "Views ";
+			sourceTree = "<group>";
+		};
+		1F53236B2F7AC45400F14D56 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1F5323992F7AD1CA00F14D56 /* SectionHeader.swift */,
+				1F5323982F7AD1A700F14D56 /* StatusBadge.swift */,
+				1F5323AA2F7ADBBC00F14D56 /* PrimaryButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		1F53237E2F7AC52D00F14D56 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				1F53239E2F7AD25400F14D56 /* DashboardView.swift */,
+				1F53239C2F7AD24500F14D56 /* SessionCard.swift */,
+				1F53239A2F7AD23300F14D56 /* StatCard.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		1F53237F2F7AC54000F14D56 /* Settings  */ = {
+			isa = PBXGroup;
+			children = (
+				1F5323A82F7ADB6100F14D56 /* ComponentShowcaseView.swift */,
+			);
+			path = "Settings ";
+			sourceTree = "<group>";
+		};
+		1F5323802F7AC54A00F14D56 /* Feedback */ = {
+			isa = PBXGroup;
+			children = (
+				1F5323A62F7AD9AB00F14D56 /* FeedbackFormView.swift */,
+			);
+			path = Feedback;
+			sourceTree = "<group>";
+		};
+		1F5323812F7AC56200F14D56 /* Sessions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sessions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +237,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				1F53233E2F7ABF0200F14D56 /* SwiftUIAIWorkspace */,
 			);
 			name = SwiftUIAIWorkspace;
 			packageProductDependencies = (
@@ -155,6 +283,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				1F5323562F7ABF0500F14D56 /* SwiftUIAIWorkspaceUITests */,
+				1F5323782F7AC4AB00F14D56 /* SwiftUIAIWorkspace */,
 			);
 			name = SwiftUIAIWorkspaceUITests;
 			packageProductDependencies = (
@@ -236,6 +365,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F5323872F7AC81300F14D56 /* RootTabView.swift in Sources */,
+				1F5323A72F7AD9AB00F14D56 /* FeedbackFormView.swift in Sources */,
+				1F5323A32F7AD5CE00F14D56 /* DashboardViewModel.swift in Sources */,
+				1F5323A02F7AD59900F14D56 /* AppStat.swift in Sources */,
+				1F53239F2F7AD26D00F14D56 /* DashboardView.swift in Sources */,
+				1F5323A12F7AD5BA00F14D56 /* FeebackItem.swift in Sources */,
+				1F53239D2F7AD25100F14D56 /* SessionCard.swift in Sources */,
+				1F5323A42F7AD5EE00F14D56 /* SectionHeader.swift in Sources */,
+				1F53239B2F7AD24100F14D56 /* StatCard.swift in Sources */,
+				1F5323A92F7ADB6100F14D56 /* ComponentShowcaseView.swift in Sources */,
+				1F5323AB2F7ADBBC00F14D56 /* PrimaryButton.swift in Sources */,
+				1F5323A22F7AD5C500F14D56 /* Session.swift in Sources */,
+				1F5323A52F7AD5F600F14D56 /* StatusBadge.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
