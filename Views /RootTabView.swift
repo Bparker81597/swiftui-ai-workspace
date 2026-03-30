@@ -11,7 +11,7 @@ struct RootTabView: View {
     var body: some View {
         TabView {
             NavigationStack {
-                Text("Dashboard coming soon")
+                DashboardView()
             }
             .tabItem {
                 Label("Dashboard", systemImage: "square.grid.2x2")

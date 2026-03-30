@@ -28,7 +28,12 @@ struct DashboardView: View {
                     )
 
                     ForEach(viewModel.sessions) { session in
-                        SessionCard(session: session)
+                        NavigationLink {
+                            SessionDetailView(session: session)
+                        } label: {
+                            SessionCard(session: session)
+                        }
+                        .buttonStyle(.plain)
                     }
                 }
 

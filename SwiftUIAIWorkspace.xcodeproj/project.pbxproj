@@ -20,6 +20,7 @@
 		1F5323A72F7AD9AB00F14D56 /* FeedbackFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5323A62F7AD9AB00F14D56 /* FeedbackFormView.swift */; };
 		1F5323A92F7ADB6100F14D56 /* ComponentShowcaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5323A82F7ADB6100F14D56 /* ComponentShowcaseView.swift */; };
 		1F5323AB2F7ADBBC00F14D56 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5323AA2F7ADBBC00F14D56 /* PrimaryButton.swift */; };
+		1F5323AD2F7B388100F14D56 /* SessionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5323AC2F7B388100F14D56 /* SessionDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		1F5323A62F7AD9AB00F14D56 /* FeedbackFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackFormView.swift; sourceTree = "<group>"; };
 		1F5323A82F7ADB6100F14D56 /* ComponentShowcaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentShowcaseView.swift; sourceTree = "<group>"; };
 		1F5323AA2F7ADBBC00F14D56 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		1F5323AC2F7B388100F14D56 /* SessionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -219,6 +221,7 @@
 		1F5323812F7AC56200F14D56 /* Sessions */ = {
 			isa = PBXGroup;
 			children = (
+				1F5323AC2F7B388100F14D56 /* SessionDetailView.swift */,
 			);
 			path = Sessions;
 			sourceTree = "<group>";
@@ -369,6 +372,7 @@
 				1F5323A72F7AD9AB00F14D56 /* FeedbackFormView.swift in Sources */,
 				1F5323A32F7AD5CE00F14D56 /* DashboardViewModel.swift in Sources */,
 				1F5323A02F7AD59900F14D56 /* AppStat.swift in Sources */,
+				1F5323AD2F7B388100F14D56 /* SessionDetailView.swift in Sources */,
 				1F53239F2F7AD26D00F14D56 /* DashboardView.swift in Sources */,
 				1F5323A12F7AD5BA00F14D56 /* FeebackItem.swift in Sources */,
 				1F53239D2F7AD25100F14D56 /* SessionCard.swift in Sources */,
